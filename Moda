@@ -1,0 +1,155 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desfile de Moda 2026</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #171217;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ff9bc8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #25101d, #d94f91);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h2 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ff9bc8;
+            color: #28121f;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        section {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px #e5cbd8;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #171217;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fashion Show</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#galeria">Galeria</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner" id="inicio">
+            <h2>Desfile de Moda 2026</h2>
+            <p>Estilo, elegância e criatividade em um só lugar!</p>
+            <button onclick="alert('Bem-vindo ao nosso desfile!')">
+                Conheça o evento
+            </button>
+        </div>
+
+        <section id="sobre">
+            <h2>Sobre o evento</h2>
+            <p>
+                Prepare-se para um espetáculo de moda,
+                tendências e looks incríveis.
+                Venha conhecer o universo fashion!
+            </p>
+            <p><strong>Data:</strong> 12 de dezembro de 2026</p>
+            <p><strong>Local:</strong> São Paulo - SP</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Moda</h2>
+
+            <div class="galeria">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=500&q=80"
+                         alt="Modelo em um look de moda">
+                    <h3>Alta-costura</h3>
+                    <p>Elegância em cada detalhe.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=500&q=80"
+                         alt="Looks e tendências de moda">
+                    <h3>Tendências</h3>
+                    <p>Descubra novos estilos.</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
+                         alt="Retrato de modelo">
+                    <h3>Beleza Fashion</h3>
+                    <p>Moda que inspira.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Fashion Show | Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
